@@ -1,6 +1,38 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
+}
+.best{
+    color: orange;
+}
+.flx{
+    display: flex;
+    margin-bottom: 150px;
+}
+.dic{
+    width: 50%;
+    padding-left: 5%;
+}
+.dic img{
+    width:  80%;
+}
+.buton{
+    text-decoration:none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.secsion{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.db{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
